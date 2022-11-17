@@ -10,7 +10,7 @@ class Bot {
     }
 
     sayHello(): void {
-        console.log(`hello ${this.name} !`)
+        console.log(`helli ${this.name} !`)
     }
 
 }
