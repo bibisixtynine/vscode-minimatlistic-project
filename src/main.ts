@@ -10,6 +10,6 @@ console.log(add(12,0))
 
 console.log(uneValeur)
 
-let aBot = new Bot('Robertoi')
+let aBot = new Bot('Roberto')
 
 aBot.sayHello()
