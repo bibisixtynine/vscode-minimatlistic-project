@@ -12,4 +12,8 @@ console.log(uneValeur)
 
 let aBot = new Bot('Roberto')
 
+console.log(aBot.nom)
+
+aBot.nom = 'riki'
+
 aBot.sayHello()

@@ -9,8 +9,17 @@ class Bot {
         this.name = name
     }
 
-    sayHello(): void {
-        console.log(`helli ${this.name} !`)
+    public sayHello(): void {
+        console.log(`hello ${this.name} !`)
     }
 
+    public get nom() {
+        return this.name
+    }
+
+    
+    public set nom(v : string) {
+        this.name = v;
+    }
+    
 }
