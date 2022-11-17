@@ -1,13 +1,15 @@
-export let uneValeur = 10
+export { Bot, uneValeur}
 
-export class Bot {
+let uneValeur = 10
+
+class Bot {
     private name: string
     
     constructor(name : string) {
         this.name = name
     }
 
-    sayHello() {
+    sayHello(): void {
         console.log(`hello ${this.name} !`)
     }
 
