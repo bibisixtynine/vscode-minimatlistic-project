@@ -1,4 +1,4 @@
-export { Bot, uneValeur}
+export { Bot, uneValeur }
 
 let uneValeur = 10
 
