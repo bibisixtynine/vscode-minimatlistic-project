@@ -1,25 +1,25 @@
-export { Bot, uneValeur }
+export { Bot, welcomeMessage }
 
-let uneValeur = 10
+let welcomeMessage: string = 'Welcome to the world of Typescript'
 
 class Bot {
-    private name: string
+    private id: string
     
     constructor(name : string) {
-        this.name = name
+        this.id = name
     }
 
     public sayHello(): void {
-        console.log(`hello ${this.name} !`)
+        console.log(`hello ${this.id} !`)
     }
 
-    public get nom() {
-        return this.name
+    public get name() {
+        return this.id
     }
 
     
-    public set nom(v : string) {
-        this.name = v;
+    public set name(v : string) {
+        this.id = v;
     }
     
 }
